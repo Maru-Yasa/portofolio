@@ -12,7 +12,7 @@ function Profile() {
         </div>
         <div className="col-md-6 text-center text-md-start">
             <span className='fs-1  text-white fw-bold'>
-                Hi There!
+                Hi There! 👋
                 <br />
                 I'm <span className="my-text-orange">Maru yasa</span>
             </span>
