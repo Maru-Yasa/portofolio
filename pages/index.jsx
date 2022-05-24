@@ -5,6 +5,7 @@ import { Container, ProgressBar } from 'react-bootstrap'
 import LangSkills from '../components/LangSkills'
 import FrameSkills from '../components/FrameSkills'
 import ProjectComponent from '../components/ProjectComponent'
+import Footer from '../components/Footer'
 
 export default function Home() {
 
@@ -12,13 +13,12 @@ export default function Home() {
     <div className='my-bg-blue-darken'>
     
       <NavbarComponent></NavbarComponent>
-      <Container className='my-bg-blue' id='profile'>
+      <Container className='my-bg-blue-darken' id='profile'>
         <Profile />   
         <LangSkills />
         <FrameSkills />
         <ProjectComponent />
-
-
+        <Footer />
       </Container>
 
 

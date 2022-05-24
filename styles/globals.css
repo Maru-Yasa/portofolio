@@ -57,6 +57,10 @@ a {
   background-color: #2A2550;
 }
 
+.my-text-blue {
+  color: #2A2550 !important;
+}
+
 .my-bg-blue-darken {
   background-color: #251D3A;
 }
