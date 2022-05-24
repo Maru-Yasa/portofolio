@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Container, ProgressBar } from 'react-bootstrap'
 
 function LangSkills() {
@@ -59,7 +60,7 @@ function LangSkills() {
             {lang_left.map((skill, index) => {
                 return (
                 <div className="mb-3" key={index}>
-                    <div className='my-2 text-white fw-bold'><img src={skill.logo} className="my-logo" alt="" /> {skill.name}  </div>
+                    <div className='my-2 text-white fw-bold'><Image src={skill.logo} className="my-logo" alt="" /> {skill.name}  </div>
                     <ProgressBar now={skill.percent} label={skill.percent + "%"} variant="orange" className=''></ProgressBar>
                 </div>                     
                 )
@@ -70,7 +71,7 @@ function LangSkills() {
             {lang_right.map((skill, index) => {
                 return (
                 <div className="mb-3" key={index}>
-                    <div className='my-2 text-white fw-bold'><img src={skill.logo} className="my-logo" alt="" /> {skill.name}  </div>
+                    <div className='my-2 text-white fw-bold'><Image src={skill.logo} className="my-logo" alt="" /> {skill.name}  </div>
                     <ProgressBar now={skill.percent} label={skill.percent + "%"} variant="orange" className=''></ProgressBar>
                 </div>                     
                 )

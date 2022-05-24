@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 function ProjectComponent() {
 
     const projects = [
@@ -38,13 +40,13 @@ function ProjectComponent() {
         <div className="row justify-content-center my-bg-blue-darken" id="projects">
 
         <div className="col-10 row justify-content-center mb-3 mt-5 col-md-8 px-4 py-3 rounded">
-          <h2 className='fw-bold text-white'>Projects I've Done</h2>
+          <h2 className='fw-bold text-white'>Projects I&apos;ve Done</h2>
           <div className="col-11 row mt-5 justify-content-center">
 
             {projects.map((project, index) => {
                 return (
                     <a href={project.href} key={index} data-aos='zoom-in' className="card shadow col-md-5 my-3 mx-3 p-0 border-0 my-bg-blue project-hover">
-                        <img className='poster rounded' src={project.img} alt="" />
+                        <Image className='poster rounded' src={project.img} alt="" />
                         <h3 className='title text-white fw-bold'>{project.name}</h3>
                         <span className='desc text-white'>{project.desc}</span>
                     </a>                    

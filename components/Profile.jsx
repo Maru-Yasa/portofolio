@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 function Profile() {
     const profilePict = "https://media-exp1.licdn.com/dms/image/C4E03AQHoYXy-4o1BFA/profile-displayphoto-shrink_200_200/0/1645504624862?e=1658966400&v=beta&t=B1rbCKZsTkyAuxwLo1s80kPaONn5_CxWh6SVzq9ceNw"
 
@@ -8,13 +10,13 @@ function Profile() {
 
 <div className="col-10 row justify-content-center mt-5 p-3 text-center">
         <div className="col-md-6 text-center text-md-end mb-3 px-5">
-            <img src={profilePict} className='img-thumbnail shadow rounded-circle avatar' alt="" />
+            <Image src={profilePict} className='img-thumbnail shadow rounded-circle avatar' alt="" />
         </div>
         <div className="col-md-6 text-center text-md-start">
             <span className='fs-1  text-white fw-bold'>
                 Hi There! 👋
                 <br />
-                I'm <span className="my-text-orange">Maru yasa</span>
+                I&apos;m <span className="my-text-orange">Maru yasa</span>
             </span>
             <br />
             <hr className="text-white col-md-6" />
