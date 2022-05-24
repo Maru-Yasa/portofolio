@@ -7,9 +7,8 @@ function NavbarComponent() {
         <Container>
         <Navbar.Brand href="#home" className="my-text-orange fw-bold">Maru-Yasa</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="/#profile">Profile</Nav.Link>
+          <Nav.Link href="/#projects">Projects</Nav.Link>
         </Nav>
         </Container>
       </Navbar>

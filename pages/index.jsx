@@ -3,6 +3,8 @@ import NavbarComponent from '../components/NavbarComponent'
 import Profile from '../components/Profile'
 import { Container, ProgressBar } from 'react-bootstrap'
 import LangSkills from '../components/LangSkills'
+import FrameSkills from '../components/FrameSkills'
+import ProjectComponent from '../components/ProjectComponent'
 
 export default function Home() {
 
@@ -10,9 +12,13 @@ export default function Home() {
     <div className='my-bg-blue-darken'>
     
       <NavbarComponent></NavbarComponent>
-      <Container className='my-bg-blue'>
-        <Profile></Profile>   
-        <LangSkills></LangSkills>
+      <Container className='my-bg-blue' id='profile'>
+        <Profile />   
+        <LangSkills />
+        <FrameSkills />
+        <ProjectComponent />
+
+
       </Container>
 
 
