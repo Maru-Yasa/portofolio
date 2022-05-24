@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #251D3A;
 }
 
 a {
@@ -13,4 +14,57 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.card-hover:hover {
+  transform: scale(1.3);
+  transition-timing-function: ease-in;
+  transition: 0.4s;
+}
+
+.my-logo {
+  width: 16px;
+}
+.avatar {
+  width: 200px;
+}
+
+.my-bg-blue {
+  background-color: #2A2550;
+}
+
+.my-bg-blue-darken {
+  background-color: #251D3A;
+}
+
+.my-bg-orange-darken {
+  background-color: #E04D01;
+}
+
+.my-bg-orange{
+  background-color: #FF7700 !important;
+}
+
+.bg-orange{
+  background-color: #FF7700 !important;
+}
+
+.my-text-orange{
+  color: #FF7700 !important;
+}
+
+.text-orange{
+  color: #FF7700 !important;
+}
+
+.my-bg-red {
+  background-color: #FF8AAE;
+}
+
+.my-bg-yellow {
+  background-color: #FFF89A;
+}
+
+.my-bg-pink {
+  background-color: #FFB2A6;
 }
