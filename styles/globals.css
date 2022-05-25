@@ -14,7 +14,7 @@ a {
 
 * {
   box-sizing: border-box;
-}
+} 
 
 .poster{
   position: relative;
@@ -24,13 +24,13 @@ a {
 
 .title {
   position: absolute;
-  bottom: 38px;
+  bottom: 58px;
   left: 16px;
 }
 
 .desc {
   position: absolute;
-  bottom: 18px;
+  bottom: 8px;
   left: 16px; 
 }
 

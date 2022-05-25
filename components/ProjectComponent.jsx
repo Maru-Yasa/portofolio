@@ -45,7 +45,7 @@ function ProjectComponent() {
             {projects.map((project, index) => {
                 return (
                     <a href={project.href} key={index} data-aos='zoom-in' className="card shadow col-md-5 my-3 mx-3 p-0 border-0 my-bg-blue project-hover">
-                        <img layout="fill" className='poster rounded' src={project.img} alt="" />
+                        <img layout="fill" className='poster rounded project-hover' src={project.img} alt="" />
                         <h3 className='title text-white fw-bold'>{project.name}</h3>
                         <span className='desc text-white'>{project.desc}</span>
                     </a>                    
