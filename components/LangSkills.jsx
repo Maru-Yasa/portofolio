@@ -7,7 +7,7 @@ function LangSkills() {
         python: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
         php : "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
         html: "https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg",
-        java : "/java.png",
+        typescript : "https://cdn.worldvectorlogo.com/logos/typescript.svg",
         css : "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
       }
     
@@ -41,9 +41,9 @@ function LangSkills() {
           percent : 60
         },
         {
-          name: "Java",
-          logo: logo.java,
-          percent : 25
+          name: "TypeScript",
+          logo: logo.typescript,
+          percent : 50
         },
       ] 
 
