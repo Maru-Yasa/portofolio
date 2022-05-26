@@ -1,4 +1,3 @@
-import styles from '../styles/Home.module.css'
 import NavbarComponent from '../components/NavbarComponent'
 import Profile from '../components/Profile'
 import { Container, ProgressBar } from 'react-bootstrap'
@@ -10,7 +9,6 @@ import Footer from '../components/Footer'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react'
-import Head from 'next/head'
 import { HeadComponent } from '../components/HeadComponent'
 
 export default function Home() {
