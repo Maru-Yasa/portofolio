@@ -1,6 +1,6 @@
 export const darkTheme = {
     body: "#251D3A",
-    text : "#FFF",
+    text : "white",
     background : "#2A2550"
 }
 

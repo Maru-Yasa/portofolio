@@ -19,11 +19,8 @@ export default function Home() {
   }, [])
 
   return (<>
-      <HeadComponent />
-      <div className='my-bg-blue-darken'>
       
-        <NavbarComponent></NavbarComponent>
-        <Container className='my-bg-blue-darken' id='profile'>
+        <Container id='profile'>
           <Profile />   
           <div data-aos="flip-left" className="">
             <LangSkills />
@@ -34,7 +31,6 @@ export default function Home() {
           <ProjectComponent />
           <Footer />
         </Container>
-      </div>
     </>
     )
 }

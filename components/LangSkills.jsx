@@ -49,17 +49,17 @@ function LangSkills() {
 
     return (<>
     
-    <div className="row justify-content-center my-bg-blue-darken">
+    <div className="row justify-content-center">
 
-        <div className="col-10 shadow my-bg-blue mb-3 mt-5 col-md-8 px-4 py-3 rounded">
-        <h2 className='text-white fw-bold'>Language Skills</h2>
+        <div className="col-10 shadow my-bg mb-3 mt-5 col-md-8 px-4 py-3 rounded">
+        <h2 className='my-text fw-bold'>Language Skills</h2>
         <div className="p-3 row justify-content-start">
 
             <div className="col-6">
             {lang_left.map((skill, index) => {
                 return (
                 <div className="mb-3" key={index}>
-                    <div className='my-2 text-white fw-bold'><img src={skill.logo} width="16px" layout='fill' className="my-logo" alt="" /> {skill.name}  </div>
+                    <div className='my-2 my-text fw-bold'><img src={skill.logo} width="16px" layout='fill' className="my-logo" alt="" /> {skill.name}  </div>
                     <ProgressBar now={skill.percent} label={skill.percent + "%"} variant="orange" className=''></ProgressBar>
                 </div>                     
                 )
@@ -70,7 +70,7 @@ function LangSkills() {
             {lang_right.map((skill, index) => {
                 return (
                 <div className="mb-3" key={index}>
-                    <div className='my-2 text-white fw-bold'><img src={skill.logo} width="16px" layout='fill' className="my-logo" alt="" /> {skill.name}  </div>
+                    <div className='my-2 my-text fw-bold'><img src={skill.logo} width="16px" layout='fill' className="my-logo" alt="" /> {skill.name}  </div>
                     <ProgressBar now={skill.percent} label={skill.percent + "%"} variant="orange" className=''></ProgressBar>
                 </div>                     
                 )
