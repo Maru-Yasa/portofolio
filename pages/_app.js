@@ -9,7 +9,7 @@ import { GlobalStyles } from '../components/globalstyles'
 
 function MyApp({ Component, pageProps }) {
 
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   const themeToggler = useCallback((val) => {
     setTheme(val)
