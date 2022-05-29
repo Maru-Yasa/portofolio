@@ -1,4 +1,3 @@
-import NavbarComponent from '../components/NavbarComponent'
 import Profile from '../components/Profile'
 import { Container, ProgressBar } from 'react-bootstrap'
 import LangSkills from '../components/LangSkills'

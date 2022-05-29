@@ -1,3 +1,4 @@
+import {motion} from 'framer-motion'
 
 function Profile() {
     const profilePict = "/me.jpeg"
@@ -21,19 +22,19 @@ function Profile() {
             <p className="my-text">Full Stack Web Developer <span className="fw-bold my-text-orange">Enthusiast</span></p>
             <div className="mt-3">
                 <a href='https://github.com/maru-yasa' className="btn">
-                <div className='my-bg px-3 py-2 card-hover shadow rounded'>
-                    <i className='bi bi-github my-text'></i>
-                </div>              
+                    <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 2 }} className='my-bg px-3 py-2 btn shadow rounded'>
+                        <i className='bi bi-github my-text'></i>  
+                    </motion.button>
                 </a>
                 <a href='https://www.instagram.com/maruf_ilyasa' className="btn">
-                <div className='my-bg px-3 py-2 card-hover shadow rounded'>
-                    <i className='bi bi-instagram my-text'></i>
-                </div>              
+                    <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 2 }} className='my-bg px-3 py-2 btn shadow rounded'>
+                        <i className='bi bi-instagram my-text'></i>
+                    </motion.button>  
                 </a>
                 <a href='https://www.linkedin.com/in/ma-ruf-ilyasa-3032481b0/' className="btn">
-                <div className='my-bg px-3 py-2 card-hover shadow rounded'>
-                    <i className='bi bi-linkedin my-text'></i>
-                </div>              
+                    <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 2 }} className='my-bg px-3 py-2 btn shadow rounded'>
+                        <i className='bi bi-linkedin my-text'></i>
+                    </motion.button>             
                 </a>
             </div>            
         </div>

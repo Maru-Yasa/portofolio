@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 
 function ProjectComponent() {
 
@@ -44,11 +45,11 @@ function ProjectComponent() {
 
             {projects.map((project, index) => {
                 return (
-                    <a href={project.href} key={index} data-aos='zoom-in' className="card shadow col-md-5 my-3 mx-3 p-0 border-0 my-bg-blue project-hover">
-                        <img layout="fill" className='poster rounded project-hover' src={project.img} alt="" />
-                        <h3 className='title text-white fw-bold'>{project.name}</h3>
-                        <span className='desc text-white'>{project.desc}</span>
-                    </a>                    
+                        <motion.a target="_blank" href={project.href} key={index} className='card shadow col-md-5 my-3 mx-3 p-0 border-0' whileHover={{scale:1.1}} whileTap={{scale:0.9}} >
+                            <img className='poster rounded' src={project.img} alt="" />
+                            <h3 className='title text-white fw-bold'>{project.name}</h3>
+                            <span className='desc text-white'>{project.desc}</span>
+                        </motion.a>
                 )
             })}
 
