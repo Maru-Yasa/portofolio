@@ -9,12 +9,13 @@ import { GlobalStyles } from '../components/globalstyles'
 
 import '../config'
 import { SSRProvider } from 'react-bootstrap'
+import { getCookie, setCookie } from 'cookies-next'
 
 function MyApp({ Component, pageProps }) {
-
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(getCookie('initialTheme') || 'light');
 
   const themeToggler = useCallback((val) => {
+    setCookie('initialTheme', val)
     setTheme(val)
   }, [setTheme])
 
