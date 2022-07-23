@@ -45,8 +45,8 @@ function ProjectComponent() {
 
             {projects.map((project, index) => {
                 return (
-                        <motion.a target="_blank" href={project.href} key={index} className='card shadow col-md-5 my-3 mx-3 p-0 border-0' whileHover={{scale:1.1}} whileTap={{scale:0.9}} >
-                            <img className='poster rounded' src={project.img} alt="" />
+                        <motion.a target="_blank" href={project.href} key={index} className='card shadow col-lg-5 my-3 mx-3 p-0 border-0' whileHover={{scale:1.1}} whileTap={{scale:0.9}} >
+                            <img className='poster rounded img-fluid' src={project.img} alt="" />
                             <h3 className='title text-white fw-bold'>{project.name}</h3>
                             <span className='desc text-white'>{project.desc}</span>
                         </motion.a>
